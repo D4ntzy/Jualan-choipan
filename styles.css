@@ -35,7 +35,7 @@ nav a {
 }
 
 #hero {
-  background: linear-gradient(to right, #ca83ca, #FFD700);
+  background: linear-gradient(to right, #ca83ca, #6ac3ff));
   color: white;
   text-align: center;
   padding: 6rem 2rem;
@@ -96,3 +96,4 @@ footer {
   padding: 2rem;
   text-align: center;
 }
+
