@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #C8A2C8;
+  background-color: #ca83ca;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -35,7 +35,7 @@ nav a {
 }
 
 #hero {
-  background: linear-gradient(to right, #C8A2C8, #FFD700);
+  background: linear-gradient(to right, #ca83ca, #FFD700);
   color: white;
   text-align: center;
   padding: 6rem 2rem;
