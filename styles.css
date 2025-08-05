@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #C8A2C8;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#hero {
+  background: linear-gradient(to right, #C8A2C8, #FFD700);
+  color: white;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta {
+  background-color: white;
+  color: #C8A2C8;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 1.5rem;
+  transition: 0.3s;
+}
+
+.cta:hover {
+  background-color: #f3e0f3;
+}
+
+section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.menu-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.menu-item {
+  width: 200px;
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+footer {
+  background-color: #C8A2C8;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
